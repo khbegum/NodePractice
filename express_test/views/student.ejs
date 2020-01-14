@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+    body{
+        background-color: rosybrown;
+        
+    }
+</style>
+<bod>
+    <h1>
+       You have requested the student name:  <%= name %>
+    </h1>
+    <p>Id of student is :<%=id%></p>
+    <h1>Subjects</h1>
+    <ul>
+        <%subjects.forEach(function(item){%>
+<li> <%= item %></li>
+<% });%>
+    </ul>
+</bod>
+</html> 

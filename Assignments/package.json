@@ -1,0 +1,19 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileList.js",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "moment": "^2.24.0",
+    "strftime": "^0.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
